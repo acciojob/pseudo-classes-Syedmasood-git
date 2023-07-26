@@ -1,1 +1,40 @@
 /*  your css code here. If applicable */
+*{
+	margin:0px;
+	padding:0px;
+	background-color:rgb(135, 206, 235);
+}
+.row-1{
+	background-color:black;
+	color:white;
+}
+.row-2{
+	padding:10px 0px;
+}
+.row-3{
+	padding:10px 0px;
+	color:red;
+}
+ul{
+	margin-inline:30px;
+	padding:10px;
+}
+ul>li{
+	padding:5px;
+	width:50%;
+}
+li:first-child{
+	background-color:white;
+	font-size:22px;
+}
+li:last-child{
+	background-color:white;
+	font-size:22px;
+}
+li:nth-child(even) {
+    background-color: grey;
+}
+li:nth-child(3) {
+    background-color: pink;
+}
+
